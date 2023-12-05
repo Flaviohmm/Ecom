@@ -21,10 +21,47 @@
       </div>
     </div>
   </div>
+  <br>
 {% endblock banner-slider %}
 
+{% block information %}
+  <div class="container">
+    <div class="row bg-primary text-center p-5 text-white border-bottom shadow">
+      <h1>Products</h1>
+      <small class="fs-5">
+        Dodla offers a wide range of products in both liquid milk and 
+        by-product categories. The liquid milk comprises of 5 types of 
+        variants and the by-product comprises of 14 types of variantes.
+
+        Dodla offers a wide range of milk products comprising of Fresh 
+        milk, Butter, Ghee, Paneer, Curd, Flavored Milk, Doodh Peda,
+        Ice Cream and Skimmed Milk Powder. 
+      </small>
+    </div>
+    <br>
+  </div>
+{% endblock information %}
+<
 {% block main-content %}
-  <h1>Welcome Dairy Products site...</h1>
+  <div class="container">
+    <h2 class="text-center">Dairy Products</h2>
+    <br>
+    <br>
+    <div class="row container">
+      <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" data-wow-duration="1s" 
+      data-wow-delay="0.6s" style="animation-duration: 1s; animation-delay: 0.6s;
+      animation-name: none;">
+        <div class="goodnesssec buttermilk smbg">
+          <a href="#">
+            <div class="goodnessseccont text-center">
+              <img src="{% static "app/images/product/buffalo-ghee.png" %}" alt="" class="img-responsive">
+              <p class="mlkpro">Milk</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
   <br>
   <br>
 {% endblock main-content %}
